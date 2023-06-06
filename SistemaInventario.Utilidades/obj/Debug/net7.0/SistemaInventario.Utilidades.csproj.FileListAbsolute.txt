@@ -1,0 +1,12 @@
+/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/bin/Debug/net7.0/SistemaInventario.Utilidades.deps.json
+/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/bin/Debug/net7.0/SistemaInventario.Utilidades.dll
+/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/bin/Debug/net7.0/SistemaInventario.Utilidades.pdb
+/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/obj/Debug/net7.0/SistemaInventario.Utilidades.csproj.AssemblyReference.cache
+/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/obj/Debug/net7.0/SistemaInventario.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/obj/Debug/net7.0/SistemaInventario.Utilidades.AssemblyInfoInputs.cache
+/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/obj/Debug/net7.0/SistemaInventario.Utilidades.AssemblyInfo.cs
+/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/obj/Debug/net7.0/SistemaInventario.Utilidades.csproj.CoreCompileInputs.cache
+/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/obj/Debug/net7.0/SistemaInventario.Utilidades.dll
+/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/obj/Debug/net7.0/refint/SistemaInventario.Utilidades.dll
+/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/obj/Debug/net7.0/SistemaInventario.Utilidades.pdb
+/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/obj/Debug/net7.0/ref/SistemaInventario.Utilidades.dll

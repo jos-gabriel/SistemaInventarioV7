@@ -4,6 +4,192 @@
     "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/SistemaInventarioV7.csproj": {}
   },
   "projects": {
+    "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.AccesoDatos/SistemaInventario.AccesoDatos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.AccesoDatos/SistemaInventario.AccesoDatos.csproj",
+        "projectName": "SistemaInventario.AccesoDatos",
+        "projectPath": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.AccesoDatos/SistemaInventario.AccesoDatos.csproj",
+        "packagesPath": "/home/gabriel/.nuget/packages/",
+        "outputPath": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.AccesoDatos/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gabriel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Modelos/SistemaInventario.Modelos.csproj": {
+                "projectPath": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Modelos/SistemaInventario.Modelos.csproj"
+              },
+              "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/SistemaInventario.Utilidades.csproj": {
+                "projectPath": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/SistemaInventario.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Modelos/SistemaInventario.Modelos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Modelos/SistemaInventario.Modelos.csproj",
+        "projectName": "SistemaInventario.Modelos",
+        "projectPath": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Modelos/SistemaInventario.Modelos.csproj",
+        "packagesPath": "/home/gabriel/.nuget/packages/",
+        "outputPath": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Modelos/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gabriel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/SistemaInventario.Utilidades.csproj": {
+                "projectPath": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/SistemaInventario.Utilidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/SistemaInventario.Utilidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/SistemaInventario.Utilidades.csproj",
+        "projectName": "SistemaInventario.Utilidades",
+        "projectPath": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/SistemaInventario.Utilidades.csproj",
+        "packagesPath": "/home/gabriel/.nuget/packages/",
+        "outputPath": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/gabriel/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/SistemaInventarioV7.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,7 +212,17 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.AccesoDatos/SistemaInventario.AccesoDatos.csproj": {
+                "projectPath": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.AccesoDatos/SistemaInventario.AccesoDatos.csproj"
+              },
+              "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Modelos/SistemaInventario.Modelos.csproj": {
+                "projectPath": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Modelos/SistemaInventario.Modelos.csproj"
+              },
+              "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/SistemaInventario.Utilidades.csproj": {
+                "projectPath": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventario.Utilidades/SistemaInventario.Utilidades.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -41,23 +237,29 @@
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.4, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             }
           },
           "imports": [
