@@ -6,11 +6,11 @@ using SistemaInventario.Utilidades;
 namespace SistemaInventarioV7.Areas.Admin.Controllers;
 
 [Area("Admin")]
-public class BodegaController : Controller
+public class CategoriaController : Controller
 {
     private readonly IUnidadTrabajo _unidadTrabajo;
 
-    public BodegaController(IUnidadTrabajo unidadTrabajo)
+    public CategoriaController(IUnidadTrabajo unidadTrabajo)
     {
         _unidadTrabajo = unidadTrabajo;
     }
@@ -21,22 +21,22 @@ public class BodegaController : Controller
 
     public async Task<IActionResult> Upsert(int? id)
     {
-        Bodega bodega = new Bodega();
+        Categoria categoria = new Categoria();
 
         if (id == null)
         {
-            //crear una nueva Bodega
-            bodega.Estado = true;
-            return View(bodega);
+            //crear una nueva categoria
+            categoria.Estado = true;
+            return View(categoria);
         }
-        // Atualizamos Bodega
-        bodega = await _unidadTrabajo.Bodega.Obtener(id.GetValueOrDefault());
-        if (bodega == null)
+        // Atualizamos categoria
+        categoria = await _unidadTrabajo.Categoria.Obtener(id.GetValueOrDefault());
+        if (categoria == null)
         {
             return NotFound();
         }
 
-        return View(bodega);
+        return View(categoria);
 
     }
     
@@ -45,53 +45,53 @@ public class BodegaController : Controller
     [HttpGet]
     public async Task<IActionResult> ObtenerTodos()
     {
-        var todos = await _unidadTrabajo.Bodega.ObtenerTodos();
+        var todos = await _unidadTrabajo.Categoria.ObtenerTodos();
         return Json(new { data = todos });
     }
     
     [HttpPost]
     [ValidateAntiForgeryToken]
-    public async Task<IActionResult> Upsert(Bodega bodega)
+    public async Task<IActionResult> Upsert(Categoria categoria)
     {
         if (ModelState.IsValid)
         {
-            if (bodega.Id == 0)
+            if (categoria.Id == 0)
             {
-                await _unidadTrabajo.Bodega.Agregar(bodega);
-                TempData[DS.Exitosa] = "Bodega creada exitosamente";
+                await _unidadTrabajo.Categoria.Agregar(categoria);
+                TempData[DS.Exitosa] = "Categoria creada exitosamente";
             }
             else
             {
-                _unidadTrabajo.Bodega.Actualizar(bodega);
-                TempData[DS.Exitosa] = "Bodega actualizada exitosamente";
+                _unidadTrabajo.Categoria.Actualizar(categoria);
+                TempData[DS.Exitosa] = "Categoria actualizada exitosamente";
             }
 
             await _unidadTrabajo.Guardar();
             return RedirectToAction(nameof(Index));
         }
 
-        TempData[DS.Error] = "Error al grabar Bodega";
-        return View(bodega);
+        TempData[DS.Error] = "Error al grabar Categoria";
+        return View(categoria);
     }
 
     [HttpPost]
     public async Task<IActionResult> Delete(int id)
     {
-        var bodegaDB = await _unidadTrabajo.Bodega.Obtener(id);
-        if (bodegaDB == null)
+        var categoriaDB = await _unidadTrabajo.Categoria.Obtener(id);
+        if (categoriaDB == null)
         {
-            return Json(new { success = false, message = "Error al borrar Bodega" });
+            return Json(new { success = false, message = "Error al borrar Categoria" });
         }
-        _unidadTrabajo.Bodega.Remover(bodegaDB);
+        _unidadTrabajo.Categoria.Remover(categoriaDB);
         await _unidadTrabajo.Guardar();
-        return Json(new { success = true, message = "Bodega borrada exitosamente" });
+        return Json(new { success = true, message = "Categoria borrada exitosamente" });
     }
 
     [ActionName ("ValidarNombre")]
     public async Task<IActionResult> ValidarNombre(string nombre, int id = 0)
     {
         bool valor = false;
-        var lista = await _unidadTrabajo.Bodega.ObtenerTodos();
+        var lista = await _unidadTrabajo.Categoria.ObtenerTodos();
         if (id == 0)
         {
             valor = lista.Any(b => b.Nombre.ToLower().Trim() == nombre.ToLower().Trim());

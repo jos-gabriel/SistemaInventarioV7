@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/wwwroot/js/bodega.js",
+      "PackagePath": "staticwebassets/js/bodega.js"
+    },
+    {
+      "Id": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/wwwroot/js/categoria.js",
+      "PackagePath": "staticwebassets/js/categoria.js"
+    },
+    {
       "Id": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

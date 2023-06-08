@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X4E+ydMref7svZS0vzqBz4oD3yWv+HYUM1VnyeWcqUk=",
+  "Hash": "JxzGGhW9tspWEsyiyGFSKNmcBdebtboFM4oeqrQCIXI=",
   "Source": "SistemaInventarioV7",
   "BasePath": "_content/SistemaInventarioV7",
   "Mode": "Default",
@@ -1103,6 +1103,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/wwwroot/js/bodega.js",
+      "SourceId": "SistemaInventarioV7",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/wwwroot/",
+      "BasePath": "_content/SistemaInventarioV7",
+      "RelativePath": "js/bodega.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/bodega.js"
+    },
+    {
+      "Identity": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/wwwroot/js/categoria.js",
+      "SourceId": "SistemaInventarioV7",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/wwwroot/",
+      "BasePath": "_content/SistemaInventarioV7",
+      "RelativePath": "js/categoria.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/categoria.js"
     },
     {
       "Identity": "/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/wwwroot/js/site.js",

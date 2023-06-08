@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = /home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/Areas/Admin/Views/Categoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2F0ZWdvcmlhL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/Areas/Admin/Views/Categoria/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = 
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQ2F0ZWdvcmlhL1Vwc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/Areas/Inventario/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSW52ZW50YXJpby9WaWV3cy9Ib21lL0luZGV4LmNzaHRtbA==
@@ -26,6 +38,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = 
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSW52ZW50YXJpby9WaWV3cy9Ib21lL1ByaXZhY3kuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/Areas/Admin/Views/Bodega/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQm9kZWdhL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/Areas/Admin/Views/Bodega/Upsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQm9kZWdhL1Vwc2VydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/Areas/Admin/Views/_ViewImports.cshtml]
@@ -52,8 +72,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/Views/Shared/_BotonesActualizarYRegresar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Cb3RvbmVzQWN0dWFsaXphcllSZWdyZXNhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/Views/Shared/_BotonesCrearYRegresar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Cb3RvbmVzQ3JlYXJZUmVncmVzYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/Views/Shared/_Notificaciones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Ob3RpZmljYWNpb25lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/gabriel/RiderProjects/SistemaInventarioV7/SistemaInventarioV7/Views/Shared/_ValidationScriptsPartial.cshtml]

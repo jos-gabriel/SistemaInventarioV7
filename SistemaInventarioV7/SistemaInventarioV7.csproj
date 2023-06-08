@@ -35,12 +35,10 @@
     </ItemGroup>
 
     <ItemGroup>
+      <AdditionalFiles Include="Areas\Admin\Views\Categoria\Index.cshtml" />
+      <AdditionalFiles Include="Areas\Admin\Views\Categoria\Upsert.cshtml" />
       <AdditionalFiles Include="Areas\Inventario\Views\Home\Index.cshtml" />
       <AdditionalFiles Include="Areas\Inventario\Views\Home\Privacy.cshtml" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Areas\Admin\Controllers\" />
     </ItemGroup>
 
 </Project>

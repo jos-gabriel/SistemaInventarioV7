@@ -1,8 +1,8 @@
-@model SistemaInventario.Modelos.Bodega
+@model SistemaInventario.Modelos.Categoria
 
 @{
     Layout = "_Layout";
-    var titulo = "Crear Bodega";
+    var titulo = "Crear categoria";
 }
 
 <form method="post">
@@ -13,7 +13,7 @@
         @if (Model.Id != 0)
         {
             //Actualizar
-            titulo = "Actualizar Bodegas";
+            titulo = "Actualizar categorias";
             <input type="hidden" asp-for="Id" id = "id"/>
         }
         <div class="col-12 border-bottom p-0">
@@ -23,7 +23,7 @@
         <div class="row mb-2 mt-2">
             <div class="form-group col-md-6">
                 <label>Nombre</label>
-                <input type="text" asp-for="Nombre" class="form-control" placeholder="Nombre de la Bodega" id="nombre" />
+                <input type="text" asp-for="Nombre" class="form-control" placeholder="Nombre de la categoria" id="nombre" />
                 <span asp-validation-for="Nombre" class="text-danger"></span>
             </div>
         </div>
@@ -31,7 +31,7 @@
         <div class="row mb-2 mt-2">
             <div class="form-group col-md-6">
                 <label>Descripción</label>
-                <input type="text" asp-for="Descripcion" class="form-control" placeholder="Descripción de la Bodega"/>
+                <input type="text" asp-for="Descripcion" class="form-control" placeholder="Descripción de la categoria"/>
                 <span asp-validation-for="Descripcion" class="text-danger"></span>
             </div>
         </div>
@@ -69,7 +69,7 @@
         });
         
         function validarNombre(){
-            var url = '@Url.Content("~/")' + "Admin/Bodega/ValidarNombre";
+            var url = '@Url.Content("~/")' + "Admin/Categoria/ValidarNombre";
             var id = "#id"
             var nombre = "#nombre"
 

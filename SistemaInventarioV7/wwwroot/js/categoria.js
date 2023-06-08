@@ -11,7 +11,7 @@ function loadDataTable(){
         },
         
         "ajax": {
-            "url":"/Admin/Bodega/ObtenerTodos"
+            "url":"/Admin/Categoria/ObtenerTodos"
         },
         "columns": [
             {"data": "nombre", "width":"20%"},
@@ -32,10 +32,10 @@ function loadDataTable(){
                 "render": function (data) {
                     return `
                         <div class="text-center">
-                            <a href="/Admin/Bodega/Upsert/${data}" class="btn btn-success text-white" style="cursor:pointer">
+                            <a href="/Admin/Categoria/Upsert/${data}" class="btn btn-success text-white" style="cursor:pointer">
                                 <i class="fa-solid fa-pen-to-square"></i>
                             </a>
-                            <a onclick=Delete("/Admin/Bodega/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer">
+                            <a onclick=Delete("/Admin/Categoria/Delete/${data}") class="btn btn-danger text-white" style="cursor:pointer">
                                 <i class="fa-solid fa-trash"></i>
                             </a>
                         </div>
@@ -48,7 +48,7 @@ function loadDataTable(){
 
 function Delete (url){
     swal({
-        title: "Está seguro de Eliminar la bodega?",
+        title: "Está seguro de Eliminar la categoria?",
         text: "Este registro no se podrá recuperar",
         icon: "warning",
         buttons: true,
